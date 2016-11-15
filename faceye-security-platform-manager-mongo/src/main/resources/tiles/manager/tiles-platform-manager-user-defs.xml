@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <!-- 模块:security 业务对像:User 管理后台 tiles模板配置 -->
+    <!-- 作者:haipege -->
+    <!-- User 管理 首页(列表页) -->
+	<definition name="security.platform.user.manager" extends="default.manager">
+	    <put-attribute name="default-center" value="security.platform.user.center"></put-attribute>
+	</definition>
+	<definition name="security.platform.user.center" extends="default.center">
+	    <put-attribute name="default-center-right" value="/component/security/platform/user/user_center.jsp"></put-attribute>
+	</definition>
+	
+	<!-- User 新增,编辑页面 -->
+	<definition name="security.platform.user.update" extends="default.manager">
+	    <put-attribute name="default-center" value="security.platform.user.update.center"></put-attribute>
+	</definition>
+	<definition name="security.platform.user.update.center" extends="default.center">
+	    <put-attribute name="default-center-right" value="/component/security/platform/user/user_update.jsp"></put-attribute>
+	</definition>
+	
+	<!-- @entiyt.name@ 明细页 -->
+	<definition name="security.platform.user.detail" extends="default.manager">
+	    <put-attribute name="default-center" value="security.platform.user.detail.center"></put-attribute>
+	</definition>
+	<definition name="security.platform.user.detail.center" extends="default.center">
+	    <put-attribute name="default-center-right" value="/component/security/platform/user/user_detail.jsp"></put-attribute>
+	</definition>
+	<!-- 用户授权 -->
+	<definition name="security.platform.user.perepare.auth" extends="default.manager">
+	    <put-attribute name="default-center" value="security.platform.user.perpare.auth.center"></put-attribute>
+	</definition>
+	<definition name="security.platform.user.perpare.auth.center" extends="default.center">
+	    <put-attribute name="default-center-right" value="/component/security/platform/user/user_auth_role.jsp"></put-attribute>
+	</definition>
+	
+	<!-- 用户登陆 -->
+	<definition name="security.platform.user.login" extends="default.manager">
+	    <put-attribute name="default-center" value="/component/security/platform/user/login.jsp"></put-attribute>
+	</definition>
+	
+	<!-- 用户注册 -->
+	<definition name="security.platform.user.register" extends="default.manager">
+	    <put-attribute name="default-center" value="/component/security/platform/user/user_register.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>

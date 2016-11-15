@@ -1,0 +1,10 @@
+{"_class":"com.faceye.component.security.platform.entity.Resource","_id":{"$numberLong":"1"},"name":"/security/","url":"/security/"}
+{"_class":"com.faceye.component.security.platform.entity.Resource","_id":{"$numberLong":"2"},"name":"/parse/","url":"/parse/"}
+{"_class":"com.faceye.component.security.platform.entity.Resource","_id":{"$numberLong":"3"},"name":"/search/","url":"/search/"}
+{"_class":"com.faceye.component.security.platform.entity.Resource","_id":{"$numberLong":"4"},"name":"/index/","url":"/index/"}
+{"_class":"com.faceye.component.security.platform.entity.Resource","_id":{"$numberLong":"5"},"name":"/push/","url":"/push/"}
+{"_class":"com.faceye.component.security.platform.entity.Resource","_id":{"$numberLong":"6"},"name":"/spider/","url":"/spider/"}
+{"_class":"com.faceye.component.security.platform.entity.Resource","_id":{"$numberLong":"7"},"name":"/security/platform/role/home","url":"/security/platform/role/home"}
+{"_class":"com.faceye.component.security.platform.entity.Resource","_id":{"$numberLong":"8"},"name":"/security/platform/user/home","url":"/security/platform/user/home"}
+{"_class":"com.faceye.component.security.platform.entity.Resource","_id":{"$numberLong":"9"},"name":"/security/platform/resource/home","url":"/security/platform/resource/home"}
+{"_class":"com.faceye.component.security.platform.entity.Resource","_id":{"$numberLong":"10"},"name":"/security/platform/menu/home","url":"/security/platform/menu/home"}
