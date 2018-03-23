@@ -59,8 +59,9 @@ public class MenuController extends BaseController<Menu, Long, MenuService> {
 	 */
 	@RequestMapping("/edit/{id}")
 	public String edit(@PathVariable("id") Long id,Model model) {
+		Menu entity=null;
 		if(id!=null){
-			Menu entity=this.service.get(id);
+			 entity=this.service.get(id);
 			model.addAttribute("menu", entity);
 		}
 		List<Menu> roots=this.service.getRoots();
@@ -121,8 +122,9 @@ public class MenuController extends BaseController<Menu, Long, MenuService> {
 	 */
 	@RequestMapping("/detail/{id}")
 	public String detail(@PathVariable Long id,Model model){
+		Menu entity=null;
 		if(id!=null){
-			Menu entity=this.service.get(id);
+			 entity=this.service.get(id);
 			model.addAttribute("menu", entity);
 		}
 		return "security.platform.menu.detail";
